@@ -9,13 +9,13 @@ class Elf extends Race {
     Elf.counter += 1;
   }
 
-  get name(): string {
-    return this.name;
-  }
+  // get name(): string {
+  //   return this.name;
+  // }
 
-  get dexterity(): number {
-    return this.dexterity;
-  }
+  // get dexterity(): number {
+  //   return this.dexterity;
+  // }
 
   static createdRacesInstances(): void | number {
     return Elf.counter;
