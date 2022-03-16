@@ -1,7 +1,5 @@
 abstract class Race {
-  constructor(private _name: string, private _dexterity: number) {
-    Race.createdRacesInstances();
-  }
+  constructor(private _name: string, private _dexterity: number) { }
 
   get name(): string {
     return this._name;
@@ -11,7 +9,7 @@ abstract class Race {
     return this._dexterity;
   }
 
-  static createdRacesInstances(): number {
+  static createdRacesInstances() {
     throw Error('Not implemented');
   }
 
